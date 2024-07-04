@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Compress All Your Images</title>
+  <style>
+    /* Add your CSS styles here */
+    body {
+      font-family: 'Helvetica Neue', sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    
+    /* Intro Section */
+    .intro {
+      background-image: url('cover-image.jpg');
+      background-size: cover;
+      background-position: center;
+      color: #fff;
+      padding: 4rem 2rem;
+      text-align: center;
+    }
+    .intro h1 {
+      font-size: 4rem;
+      margin-bottom: 1rem;
+    }
+    .intro p {
+      font-size: 2rem;
+      margin-bottom: 2rem;
+    }
+    .intro nav {
+      margin-bottom: 2rem;
+    }
+    .intro nav a {
+      color: #fff;
+      font-size: 1.5rem;
+      margin: 0 1rem;
+      text-decoration: none;
+    }
+    .intro .cta-button {
+      background-color: #007bff;
+      border: none;
+      border-radius: 5px;
+      color: #fff;
+      cursor: pointer;
+      font-size: 1.5rem;
+      padding: 1rem 2rem;
+      text-decoration: none;
+    }
+    .intro .cta-button:hover {
+      background-color: #0056b3;
+    }
+    
+    /* Feature Section */
+    .features {
+      padding: 4rem 2rem;
+    }
+    .features h2 {
+      font-size: 3rem;
+      margin-bottom: 2rem;
+      text-align: center;
+    }
+    .feature {
+      align-items: center;
+      display: flex;
+      margin-bottom: 4rem;
+    }
+    .feature img, .feature video {
+      flex: 1;
+      max-width: 50%;
+      margin-right: 2rem;
+    }
+    .feature-content {
+      flex: 1;
+    }
+    .feature-content h3 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+    .feature-content p {
+      font-size: 1.5rem;
+    }
+    
+    /* About Section */
+    .about {
+      background-color: #f5f5f5;
+      padding: 4rem 2rem;
+    }
+    .about h2 {
+      font-size: 3rem;
+      margin-bottom: 2rem;
+      text-align: center;
+    }
+    .about p {
+      font-size: 1.5rem;
+      margin-bottom: 2rem;
+    }
+    .team-members {
+      display: flex;
+      justify-content: center;
+    }
+    .team-member {
+      margin: 0 2rem;
+      text-align: center;
+    }
+    .team-member img {
+      border-radius: 50%;
+      height: 100px;
+      width: 100px;
+    }
+    .team-member h4 {
+      font-size: 1.5rem;
+      margin-top: 1rem;
+    }
+    .team-member p {
+      font-size: 1.2rem;
+      margin-top: 0.5rem;
+    }
+    .team-member a {
+      color: #007bff;
+      text-decoration: none;
+    }
+    .team-member a:hover {
+      color: #0056b3;
+    }
+    .github-link {
+      display: block;
+      font-size: 1.5rem;
+      margin-top: 2rem;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <!-- Intro Section -->
+  <div class="intro">
+    <h1>Compress All Your Images</h1>
+    <p>Easily compress and optimize your JPEG, PNG, GIF, and WebP images.</p>
+    <nav>
+      <a href="#features">Features</a>
+      <a href="#about">About</a>
+    </nav>
+    <a href="https://compress-images.com" class="cta-button">Try It Now</a>
+  </div>
+  
+  <!-- Feature Section -->
+  <div class="features" id="features">
+    <h2>Key Features</h2>
+    <div class="feature">
+      <img src="feature1.jpg" alt="Feature 1">
+      <div class="feature-content">
+        <h3>Batch Compression</h3>
+        <p>Compress multiple images at once to save time and effort.</p>
+      </div>
+    </div>
+    <div class="feature">
+      <video src="feature2.mp4" controls></video>
+      <div class="feature-content">
+        <h3>Lossless Compression</h3>
+        <p>Reduce file size without compromising image quality.</p>
+      </div>
+    </div>
+    <div class="feature">
+      <img src="feature3.gif" alt="Feature 3">
+      <div class="feature-content">
+        <h3>Supported Formats</h3>
+        <p>Compress JPEG, PNG, GIF, and WebP images with ease.</p>
+      </div>
+    </div>
+  </div>
+  
+  <!-- About Section -->
+  <div class="about" id="about">
+    <h2>About Us</h2>
+    <p>Compress All Your Images was inspired by our frustration with the slow loading times of image-heavy websites. We wanted to create a tool that would help website owners and designers optimize their images without sacrificing quality. Our team of developers, designers, and image experts have worked hard to make this tool fast, easy to use, and effective.</p>
+    <div class="team-members">
+      <div class="team-member">
+        <img src="team-member1.jpg" alt="Team Member 1">
+        <h4>John Doe</h4>
+        <p><a href="https://linkedin.com/in/johndoe">LinkedIn</a> | <a href="https://github.com/johndoe">GitHub</a> | <a href="https://twitter.com/johndoe">Twitter</a></p>
+      </div>
+      <div class="team-member">
+        <img src="team-member2.jpg" alt="Team Member 2">
+        <h4>Jane Smith</h4>
+        <p><a href="https://linkedin.com/in/janesmith">LinkedIn</a> | <a href="https://github.com/janesmith">GitHub</a> | <a href="https://twitter.com/janesmith">Twitter</a></p>
+      </div>
+      <div class="team-member">
+        <img src="team-member3.jpg" alt="Team Member 3">
+        <h4>Bob Johnson</h4>
+        <p><a href="https://linkedin.com/in/bobjohnson">LinkedIn</a> | <a href="https://github.com/bobjohnson">GitHub</a> | <a href="https://twitter.com/bobjohnson">Twitter</a></p>
+      </div>
+    </div>
+    <a href="https://github.com/your-project-repo" class="github-link">View the GitHub Repository</a>
+  </div>
+</body>
+</html>
