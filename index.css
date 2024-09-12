@@ -4,7 +4,7 @@
 }
 .cover-image {
     position: relative;
-    background: url(../images/cover.webp) no-repeat center center;
+    background: url(cover.webp) no-repeat center center;
     background-size: cover;
     min-height: 100vh;
     width: 100%;
